@@ -1,2 +1,2 @@
 # RECH
-Matlab code for the RECH model
+Matlab code for the RECH model (to be made avaiable)

@@ -8,17 +8,17 @@ These findings provide strong evidence supporting the superiority of LSTM-tGARCH
 1. For stock indexes
 - Download and unzip for_stock_index.zip
 - Run run_tGARCH_all_stock_index.m and run_RECH_all_stock_index.m to produce the Bayesian inference results for the 31 stock indexes. Then run analyse_stock_index.m to see the comparison. 
-The running time can be a few hours depending on the your machine.
+The running time can be a few hours depending on your machine.
 
 2. For the 50 large-captial stocks
 - Download file: for individual stocks - largecap.zip
 - Run run_tGARCH_all_stock.m and run_RECH_all_stock.m to produce the Bayesian inference results for the stocks. Then run analyse_largecap_stocks.m to see the comparison. 
-The running time can be a few hours depending on the your machine.
+The running time can be a few hours depending on your machine.
 
 3. For the 50 medium-captial stocks
 - Download file: for individual stocks - midcap.zip
 - Run run_tGARCH_all_stock.m and run_RECH_all_stock.m to produce the Bayesian inference results for the stocks. Then run analyse_midcap_stocks.m to see the comparison. 
-The running time can be a few hours depending on the your machine.
+The running time can be a few hours depending on your machine.
 
 
 

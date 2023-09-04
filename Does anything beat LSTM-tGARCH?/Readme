@@ -1,18 +1,25 @@
-This folder contains the Matlab files to compare LSTM-tGARCH(1,1) with tGARCH(1,1) across 31 global stock stock indexes, 50 large-captital and 50 medium-captital stocks from different countries. 
-The analysis consistently shows that the LSTM-tGARCH model outperforms the tGARCH model across various datasets, including stock indexes, large-capital individual stocks, medium-capital individual stocks, and portfolios. 
+This folder contains the Matlab files to compare LSTM-tGARCH(1,1) with tGARCH(1,1) across 31 global stock stock indexes, 50 large-capital and 50 medium-capital stocks from different countries. 
+The analysis consistently shows that the LSTM-tGARCH model outperforms the tGARCH model across various datasets, including stock indexes, large-capital individual stocks, 
+medium-capital individual stocks, and portfolios. 
 The superior performance of LSTM-tGARCH(1,1) is evident in terms of both in-sample performance (i.e., higher log marginal likelihood) and out-of-sample forecast (i.e., smaller PPS, quantile score and MSE). 
 These findings provide strong evidence supporting the superiority of LSTM-tGARCH(1,1) over tGARCH(1,1) for modelling and forecasting stock volatility.
 
 ** Instruction on running the empirical study **
 1. For stock indexes
-- Download
+- Download and unzip for_stock_index.zip
 - Run run_tGARCH_all_stock_index.m and run_RECH_all_stock_index.m to produce the Bayesian inference results for the 31 stock indexes. Then run analyse_stock_index.m to see the comparison. 
 The running time can be a few hours depending on the your machine.
 
 2. For the 50 large-captial stocks
-- Download
-- Run run_tGARCH_all_stock_index.m and run_RECH_all_stock_index.m to produce the Bayesian inference results for the stocks. Then run analyse_largecap_stocks.m to see the comparison. 
+- Download file: for individual stocks - largecap.zip
+- Run run_tGARCH_all_stock.m and run_RECH_all_stock.m to produce the Bayesian inference results for the stocks. Then run analyse_largecap_stocks.m to see the comparison. 
 The running time can be a few hours depending on the your machine.
+
+3. For the 50 medium-captial stocks
+- Download file: for individual stocks - midcap.zip
+- Run run_tGARCH_all_stock.m and run_RECH_all_stock.m to produce the Bayesian inference results for the stocks. Then run analyse_midcap_stocks.m to see the comparison. 
+The running time can be a few hours depending on the your machine.
+
 
 
 
